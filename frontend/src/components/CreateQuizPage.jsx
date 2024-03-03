@@ -45,7 +45,7 @@ const CreateQuizPage = () => {
         console.log(questions)
     }
   return (
-    <div className='flex flex-col w-[80%] mb-10'>
+    <div className='flex flex-col w-[80%] my-10'>
         <form action="#" method="post" className=' flex-col flex'>
             <div className=' flex justify-around bg-slate-200 rounded-md items-center'>
             <label htmlFor="title" className='m-5  font-bold text-2xl font-sans'>Quiz Title</label>

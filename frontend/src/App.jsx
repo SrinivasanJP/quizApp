@@ -11,7 +11,7 @@ const renderComponent = (fragment)=>{
 const App = () => {
   const [fragment, setFragment] = useState("home")
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center'>
       <Navigation setFragment={setFragment}/>
       {renderComponent(fragment)}
     </div>
