@@ -1,12 +1,9 @@
 import React from 'react'
-import CreateQuizPage from './components/CreateQuizPage'
+import Navigation from './components/Navigation'
 
 const App = () => {
   return (
-    <div className='flex justify-center items-center'>
-    <CreateQuizPage />
-
-    </div>
+    <Navigation/>
   )
 }
 
