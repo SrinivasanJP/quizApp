@@ -1,9 +1,12 @@
 import React from 'react'
-import Login from './components/authComponents/Login'
+import CreateQuizPage from './components/CreateQuizPage'
 
 const App = () => {
   return (
-    <Login />
+    <div className='flex justify-center items-center'>
+    <CreateQuizPage />
+
+    </div>
   )
 }
 
