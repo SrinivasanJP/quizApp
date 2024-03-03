@@ -1,9 +1,9 @@
 import React from 'react'
-import Login from './components/authComponents/Login'
+import Navigation from'./components/Navigation'
 
 const App = () => {
   return (
-    <Login />
+    <Navigation/>
   )
 }
 
